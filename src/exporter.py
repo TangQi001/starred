@@ -361,10 +361,12 @@ def update_readme(
         return False
     
     # Replace content between tags
-    pattern = f"{re.escape(START_TAG)}.*?{re.escape(END_TAG)}"
-    replacement = f"{START_TAG}\n\n{content}\n\n{END_TAG}"
-    
-    new_content = re.sub(pattern, replacement, readme_content, flags=re.DOTALL)
+    #pattern = f"{re.escape(START_TAG)}.*?{re.escape(END_TAG)}"
+    #replacement = f"{START_TAG}\n\n{content}\n\n{END_TAG}"
+    #new_content = re.sub(pattern, replacement, readme_content, flags=re.DOTALL)
+    start_idx = readme_content.find(START_TAG)
+    end_idx = readme_content.find(END_TAG) + len(END_TAG)
+    new_content = readme_content[:start_idx] + replacement + readme_content[end_idx:]    
     
     # Write updated README
     readme_path.write_text(new_content, encoding="utf-8")
