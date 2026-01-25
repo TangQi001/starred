@@ -19,22 +19,22 @@ on:
         description: 'Max repos to show in README'
         required: false
         type: number
-        default: 50
+        default: 200
       max_categories:
         description: 'Max categories to show'
         required: false
         type: number
-        default: 10
+        default: 20
       include_toc:
         description: 'Include table of contents'
         required: false
         type: boolean
-        default: false
+        default: true
       include_description:
         description: 'Include repo descriptions'
         required: false
         type: boolean
-        default: false
+        default: true
 
 jobs:
   update-profile:
@@ -77,6 +77,8 @@ jobs:
           pip install -e .
       
       - name: Update profile README
+        env:
+          STARRED_REPO: ${{ github.repository }}
         run: |
           cd starred
           
@@ -92,6 +94,7 @@ jobs:
           CMD="starred update-readme --readme $PROFILE_README --data starred_data.json"
           CMD="$CMD --max-repos ${{ inputs.max_repos || 50 }}"
           CMD="$CMD --max-categories ${{ inputs.max_categories || 10 }}"
+          CMD="$CMD --starred-repo-url https://github.com/$STARRED_REPO"
           
           if [ "${{ inputs.include_toc }}" == "true" ]; then
             CMD="$CMD --include-toc"
@@ -104,6 +107,11 @@ jobs:
           # Run the command
           eval $CMD
       
+      - name: Copy full STARRED_REPOS.md to profile repo
+        run: |
+          cp starred/STARRED_REPOS.md profile/STARRED_REPOS.md
+          echo "✅ Copied STARRED_REPOS.md to profile repo"
+      
       - name: Commit and push to profile repo
         run: |
           cd profile
@@ -111,12 +119,12 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          git add README.md
+          git add README.md STARRED_REPOS.md
           
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             git commit -m "chore: update starred repos section"
             git push
-            echo "✅ Updated profile README"
+            echo "✅ Updated profile README and STARRED_REPOS.md"
           fi
