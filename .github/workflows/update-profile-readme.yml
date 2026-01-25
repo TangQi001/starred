@@ -25,6 +25,16 @@ on:
         required: false
         type: number
         default: 10
+      include_toc:
+        description: 'Include table of contents'
+        required: false
+        type: boolean
+        default: false
+      include_description:
+        description: 'Include repo descriptions'
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   update-profile:
@@ -78,12 +88,21 @@ jobs:
             starred update-readme --readme "$PROFILE_README" --create-template
           fi
           
-          # Update the README
-          starred update-readme \
-            --readme "$PROFILE_README" \
-            --data starred_data.json \
-            --max-repos ${{ inputs.max_repos || 50 }} \
-            --max-categories ${{ inputs.max_categories || 10 }}
+          # Build command with optional flags
+          CMD="starred update-readme --readme $PROFILE_README --data starred_data.json"
+          CMD="$CMD --max-repos ${{ inputs.max_repos || 50 }}"
+          CMD="$CMD --max-categories ${{ inputs.max_categories || 10 }}"
+          
+          if [ "${{ inputs.include_toc }}" == "true" ]; then
+            CMD="$CMD --include-toc"
+          fi
+          
+          if [ "${{ inputs.include_description }}" == "true" ]; then
+            CMD="$CMD --include-description"
+          fi
+          
+          # Run the command
+          eval $CMD
       
       - name: Commit and push to profile repo
         run: |

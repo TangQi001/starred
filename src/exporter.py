@@ -27,8 +27,6 @@ class MarkdownExporter:
         show_description: bool = True,
         max_description_length: int = 100,
         sort_by: str = "stars",  # stars, name, starred_at
-        repos_per_category: Optional[int] = None,
-        compact_mode: bool = False,
     ):
         """
         Initialize the exporter.
@@ -39,16 +37,12 @@ class MarkdownExporter:
             show_description: Show repo description
             max_description_length: Truncate descriptions
             sort_by: How to sort repos within categories
-            repos_per_category: Limit repos per category (None for all)
-            compact_mode: Use compact single-line format
         """
         self.show_stars = show_stars
         self.show_language = show_language
         self.show_description = show_description
         self.max_description_length = max_description_length
         self.sort_by = sort_by
-        self.repos_per_category = repos_per_category
-        self.compact_mode = compact_mode
     
     def _sort_repos(self, repos: list[Repository]) -> list[Repository]:
         """Sort repositories based on configured sort order."""
@@ -64,7 +58,7 @@ class MarkdownExporter:
             )
         return repos
     
-    def _format_repo(self, repo: Repository) -> str:
+    def _format_repo(self, repo: Repository, include_description: bool = True) -> str:
         """Format a single repository entry."""
         parts = [f"[{repo.full_name}]({repo.url})"]
         
@@ -74,39 +68,58 @@ class MarkdownExporter:
         if self.show_stars:
             parts.append(f"⭐ {repo.stars:,}")
         
-        if self.show_description and repo.description:
+        if include_description and self.show_description and repo.description:
             desc = repo.description[:self.max_description_length]
             if len(repo.description) > self.max_description_length:
                 desc += "..."
-            if not self.compact_mode:
-                parts.append(f"- {desc}")
+            parts.append(f"- {desc}")
         
         # Always include "- " prefix for proper markdown list rendering
         return f"- {' '.join(parts)}"
     
-    def _format_category(self, category: Category) -> list[str]:
+    def _format_category(
+        self,
+        category: Category,
+        repos_limit: Optional[int] = None,
+        include_description: bool = True,
+    ) -> list[str]:
         """Format a category and its repos."""
         lines = []
         
         # Category header
-        lines.append(f"## {category.name}")
+        lines.append(f"### {category.name}")
         if category.description:
             lines.append(f"*{category.description}*")
         lines.append("")
         
         # Sort and limit repos
         repos = self._sort_repos(category.repos)
-        if self.repos_per_category:
-            repos = repos[:self.repos_per_category]
+        if repos_limit:
+            repos = repos[:repos_limit]
         
         # Format repos
         for repo in repos:
-            lines.append(self._format_repo(repo))
+            lines.append(self._format_repo(repo, include_description))
         
         # Show truncation notice
-        if self.repos_per_category and len(category.repos) > self.repos_per_category:
-            remaining = len(category.repos) - self.repos_per_category
+        if repos_limit and len(category.repos) > repos_limit:
+            remaining = len(category.repos) - repos_limit
             lines.append(f"- *...and {remaining} more*")
+        
+        lines.append("")
+        return lines
+    
+    def _generate_toc(self, categories: list[Category]) -> list[str]:
+        """Generate table of contents."""
+        lines = ["### 📑 Table of Contents", ""]
+        
+        for cat in categories:
+            if cat.count > 0:
+                # Create anchor from category name
+                anchor = cat.name.lower()
+                anchor = re.sub(r'[^\w\s-]', '', anchor)
+                anchor = re.sub(r'\s+', '-', anchor.strip())
+                lines.append(f"- [{cat.name}](#{anchor}) ({cat.count})")
         
         lines.append("")
         return lines
@@ -118,21 +131,34 @@ class MarkdownExporter:
         include_toc: bool = True,
         include_stats: bool = True,
         include_timestamp: bool = True,
+        include_description: bool = True,
+        max_repos_per_category: Optional[int] = None,
+        max_categories: Optional[int] = None,
+        link_to_full: Optional[str] = None,
     ) -> str:
         """
-        Generate full Markdown document.
+        Generate Markdown document.
         
         Args:
             categorized: Categorized repositories
-            title: Document title
+            title: Document title (None to skip title)
             include_toc: Include table of contents
             include_stats: Include statistics section
             include_timestamp: Include generation timestamp
+            include_description: Include repo descriptions
+            max_repos_per_category: Limit repos per category (None for all)
+            max_categories: Limit number of categories (None for all)
+            link_to_full: Add link to full file (e.g., "STARRED_REPOS.md")
         
         Returns:
             Markdown string
         """
-        lines = [f"# {title}", ""]
+        lines = []
+        
+        # Title
+        if title:
+            lines.append(f"# {title}")
+            lines.append("")
         
         # Generation info
         if include_timestamp:
@@ -145,45 +171,42 @@ class MarkdownExporter:
             lines.append(f"**{categorized.total_repos:,}** repositories organized into **{categorized.category_count}** categories")
             lines.append("")
         
-        # Table of contents
-        if include_toc:
-            lines.append("## 📑 Table of Contents")
-            lines.append("")
-            
-            # Sort categories by count
-            sorted_cats = sorted(
-                categorized.categories.values(),
-                key=lambda c: c.count,
-                reverse=True
-            )
-            
-            for cat in sorted_cats:
-                if cat.count > 0:
-                    # Create anchor from category name
-                    anchor = cat.name.lower()
-                    anchor = re.sub(r'[^\w\s-]', '', anchor)
-                    anchor = re.sub(r'\s+', '-', anchor.strip())
-                    lines.append(f"- [{cat.name}](#{anchor}) ({cat.count})")
-            
-            lines.append("")
-            lines.append("---")
-            lines.append("")
-        
-        # Categories
+        # Sort categories by count
         sorted_cats = sorted(
             categorized.categories.values(),
             key=lambda c: c.count,
             reverse=True
         )
         
+        # Limit categories if specified
+        if max_categories:
+            sorted_cats = [c for c in sorted_cats if c.count > 0][:max_categories]
+        else:
+            sorted_cats = [c for c in sorted_cats if c.count > 0]
+        
+        # Table of contents
+        if include_toc:
+            lines.extend(self._generate_toc(sorted_cats))
+            lines.append("---")
+            lines.append("")
+        
+        # Categories
         for category in sorted_cats:
-            if category.count > 0:
-                lines.extend(self._format_category(category))
+            lines.extend(self._format_category(
+                category,
+                repos_limit=max_repos_per_category,
+                include_description=include_description,
+            ))
+        
+        # Link to full file
+        if link_to_full:
+            lines.append(f"*[View all {categorized.total_repos} starred repositories →]({link_to_full})*")
+            lines.append("")
         
         # Footer
         lines.append("---")
         lines.append("")
-        lines.append("*Generated by [Starred](https://github.com/amirhmoradi/starred) - AI-powered GitHub stars organizer*")
+        lines.append("*Generated by [Starred](https://github.com/yourusername/starred) - AI-powered GitHub stars organizer*")
         
         return "\n".join(lines)
     
@@ -192,53 +215,42 @@ class MarkdownExporter:
         categorized: CategorizedRepos,
         max_repos: int = 50,
         max_categories: int = 10,
+        include_toc: bool = False,
+        include_description: bool = False,
+        link_to_full: str = "STARRED_REPOS.md",
     ) -> str:
         """
         Generate a compact version suitable for embedding in README.
+        
+        This is a convenience wrapper around generate() with README-friendly defaults.
         
         Args:
             categorized: Categorized repositories
             max_repos: Maximum total repos to show
             max_categories: Maximum categories to show
+            include_toc: Include table of contents
+            include_description: Include repo descriptions
+            link_to_full: Link to full starred repos file
         
         Returns:
-            Markdown string (without header)
+            Markdown string (without main title)
         """
-        lines = []
+        # Calculate repos per category to stay under max_repos
+        non_empty_cats = sum(1 for c in categorized.categories.values() if c.count > 0)
+        cats_to_show = min(max_categories, non_empty_cats)
+        repos_per_cat = max(max_repos // cats_to_show, 3) if cats_to_show > 0 else 5
         
-        # Sort categories by count and limit
-        sorted_cats = sorted(
-            categorized.categories.values(),
-            key=lambda c: c.count,
-            reverse=True
-        )[:max_categories]
-        
-        repos_shown = 0
-        repos_per_cat = max(max_repos // len(sorted_cats), 3) if sorted_cats else 5
-        
-        for category in sorted_cats:
-            if category.count == 0:
-                continue
-            
-            lines.append(f"### {category.name}")
-            lines.append("")
-            
-            repos = self._sort_repos(category.repos)[:repos_per_cat]
-            
-            for repo in repos:
-                if repos_shown >= max_repos:
-                    break
-                lines.append(self._format_repo(repo))
-                repos_shown += 1
-            
-            lines.append("")
-            
-            if repos_shown >= max_repos:
-                break
-        
-        lines.append(f"*[View all {categorized.total_repos} starred repositories →](STARRED_REPOS.md)*")
-        
-        return "\n".join(lines)
+        return self.generate(
+            categorized,
+            title=None,  # No title for README embed
+            include_toc=include_toc,
+            include_stats=False,
+            include_timestamp=False,
+            include_description=include_description,
+            max_repos_per_category=repos_per_cat,
+            max_categories=max_categories,
+            link_to_full=link_to_full,
+        )
 
 
 def export_to_file(
@@ -305,6 +317,8 @@ def update_readme(
     categorized: CategorizedRepos,
     max_repos: int = 50,
     max_categories: int = 10,
+    include_toc: bool = False,
+    include_description: bool = False,
     create_if_missing: bool = False,
 ) -> bool:
     """
@@ -320,6 +334,8 @@ def update_readme(
         categorized: Categorized repositories
         max_repos: Maximum repos to show
         max_categories: Maximum categories to show
+        include_toc: Include table of contents
+        include_description: Include repo descriptions
         create_if_missing: Create README with placeholders if missing
     
     Returns:
@@ -328,11 +344,13 @@ def update_readme(
     readme_path = Path(readme_path)
     
     # Generate content
-    exporter = MarkdownExporter(compact_mode=False)
+    exporter = MarkdownExporter()
     content = exporter.generate_for_readme(
         categorized,
         max_repos=max_repos,
         max_categories=max_categories,
+        include_toc=include_toc,
+        include_description=include_description,
     )
     
     # Read existing README or create template
@@ -397,7 +415,7 @@ Welcome to my GitHub profile!
 
 {START_TAG}
 <!-- This section is auto-updated by Starred -->
-<!-- See: https://github.com/amirhmoradi/starred -->
+<!-- See: https://github.com/yourusername/starred -->
 
 *Run the starred action to populate this section.*
 {END_TAG}
@@ -409,7 +427,7 @@ Welcome to my GitHub profile!
 
 ---
 
-*Profile README updated by [Starred](https://github.com/amirhmoradi/starred)*
+*Profile README updated by [Starred](https://github.com/yourusername/starred)*
 """
     
     output_path.parent.mkdir(parents=True, exist_ok=True)

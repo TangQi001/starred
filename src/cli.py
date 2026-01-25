@@ -170,6 +170,8 @@ def cmd_update_readme(args):
         categorized,
         max_repos=args.max_repos,
         max_categories=args.max_categories,
+        include_toc=args.include_toc,
+        include_description=args.include_description,
         create_if_missing=args.create,
     )
     
@@ -327,6 +329,8 @@ Environment Variables:
     readme_parser.add_argument("--data", "-d", help="Path to starred_data.json")
     readme_parser.add_argument("--max-repos", type=int, default=50, help="Max repos to show")
     readme_parser.add_argument("--max-categories", type=int, default=10, help="Max categories")
+    readme_parser.add_argument("--include-toc", action="store_true", help="Include table of contents")
+    readme_parser.add_argument("--include-description", action="store_true", help="Include repo descriptions")
     readme_parser.add_argument("--create", action="store_true", help="Create README if missing")
     readme_parser.add_argument("--create-template", action="store_true", help="Create template README")
     
