@@ -328,7 +328,7 @@ def update_readme(
     readme_path = Path(readme_path)
     
     # Generate content
-    exporter = MarkdownExporter(compact_mode=True)
+    exporter = MarkdownExporter(compact_mode=False)
     content = exporter.generate_for_readme(
         categorized,
         max_repos=max_repos,
