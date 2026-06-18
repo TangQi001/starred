@@ -1,183 +1,184 @@
 # ⭐ My Starred Repositories
 
-*Last updated: 2026-06-17 07:05 UTC*
+*Last updated: 2026-06-18 06:48 UTC*
 *Categorized using gemini (gemini-2.0-flash)*
 
-**194** repositories organized into **16** categories
+**196** repositories organized into **16** categories
 
 ### 📑 Table of Contents
 
-- [📦 Miscellaneous](#miscellaneous) (194)
+- [📦 Miscellaneous](#miscellaneous) (196)
 
 ---
 
 ### 📦 Miscellaneous
 *Other useful repositories*
 
-- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) `Markdown` ⭐ 516,479 - Master programming by recreating your favorite technologies from scratch.
-- [obra/superpowers](https://github.com/obra/superpowers) `Shell` ⭐ 230,192 - An agentic skills framework & software development methodology that works.
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) `Python` ⭐ 195,603 - The agent that grows with you
-- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) `Python` ⭐ 184,985 - AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provi...
-- [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) ⭐ 177,148 - A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations...
-- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) `C` ⭐ 143,678 - Display and control your Android device
-- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) ⭐ 140,734 - FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, L...
-- [garrytan/gstack](https://github.com/garrytan/gstack) `TypeScript` ⭐ 110,790 - Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manag...
-- [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices) `Dockerfile` ⭐ 105,332 - ✅ The Node.js best practices list (July 2026)
-- [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) `TypeScript` ⭐ 94,961 - JavaScript API for Chrome and Firefox
-- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) `Python` ⭐ 92,752 - An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms
-- [3b1b/manim](https://github.com/3b1b/manim) `Python` ⭐ 87,674 - Animation engine for explanatory math videos
-- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) `TypeScript` ⭐ 87,347 - Model Context Protocol Servers
-- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) `Python` ⭐ 86,794 - TradingAgents: Multi-Agents LLM Financial Trading Framework
-- [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) `Python` ⭐ 77,455 - 🙌 OpenHands: AI-Driven Development
-- [opendatalab/MinerU](https://github.com/opendatalab/MinerU) `Python` ⭐ 67,813 - Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic...
-- [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) `Python` ⭐ 64,434 - 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale ...
-- [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) `Python` ⭐ 59,919 - Clone a voice in 5 seconds to generate arbitrary speech in real-time
-- [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) `HTML` ⭐ 58,038 - from vibe coding to agentic engineering - practice makes claude perfect
-- [upstash/context7](https://github.com/upstash/context7) `TypeScript` ⭐ 57,534 - Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors
-- [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) `TypeScript` ⭐ 55,225 - Spec-driven development (SDD) for AI coding assistants.
-- [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade) `Python` ⭐ 51,554 - Free, open source crypto trading bot
-- [cypress-io/cypress](https://github.com/cypress-io/cypress) `TypeScript` ⭐ 50,269 - Fast, easy and reliable testing for anything that runs in a browser.
-- [aaif-goose/goose](https://github.com/aaif-goose/goose) `Rust` ⭐ 49,635 - an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and ...
-- [JuliaLang/julia](https://github.com/JuliaLang/julia) `Julia` ⭐ 48,858 - The Julia Programming Language
-- [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components) ⭐ 47,792 - Curated List of React Components & Libraries.
-- [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) `TypeScript` ⭐ 47,450 - AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to fr...
-- [oobabooga/textgen](https://github.com/oobabooga/textgen) `Python` ⭐ 47,327 - Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API....
-- [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) `TypeScript` ⭐ 44,763 - 🧡 Everything is RSSible
-- [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) `TypeScript` ⭐ 44,484 - A privacy-first, self-hosted, fully open source personal knowledge management software, written in t...
-- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) `Python` ⭐ 43,641 - AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - th...
-- [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) `TypeScript` ⭐ 42,328 - GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph...
-- [vnpy/vnpy](https://github.com/vnpy/vnpy) `Python` ⭐ 41,695 - 基于Python的开源量化交易平台开发框架
-- [elder-plinius/CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) ⭐ 41,091 - LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MO...
-- [Lordog/dive-into-llms](https://github.com/Lordog/dive-into-llms) `Jupyter Notebook` ⭐ 41,026 - 《动手学大模型Dive into LLMs》系列编程实践教程
-- [chatboxai/chatbox](https://github.com/chatboxai/chatbox) `TypeScript` ⭐ 40,510 - Powerful AI Client
-- [pbakaus/impeccable](https://github.com/pbakaus/impeccable) `JavaScript` ⭐ 38,984 - The design language that makes your AI harness better at design.
-- [RSSNext/Folo](https://github.com/RSSNext/Folo) `TypeScript` ⭐ 38,502 - 🧡 Folo is the AI RSS Reader
-- [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) `Python` ⭐ 34,984 - Build resilient agents.
-- [hehonghui/awesome-english-ebooks](https://github.com/hehonghui/awesome-english-ebooks) `CSS` ⭐ 32,221 - 经济学人(含音频)、纽约客、卫报、连线、大西洋月刊等英语杂志免费下载,支持epub、mobi、pdf格式, 每周更新
-- [AtsushiSakai/PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) `Python` ⭐ 29,776 - Python sample codes and textbook for robotics algorithms.
-- [Leey21/awesome-ai-research-writing](https://github.com/Leey21/awesome-ai-research-writing) ⭐ 28,691 - Elevate your AI research writing, no more tedious polishing ✨ 
-- [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) `JavaScript` ⭐ 27,583 - An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.
-- [srbhr/Resume-Matcher](https://github.com/srbhr/Resume-Matcher) `TypeScript` ⭐ 27,403 - Improve your resumes with Resume Matcher. Get insights, keyword suggestions and tune your resumes to...
-- [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) `Go` ⭐ 27,370 - 🌩「自选优选 IP」测试 Cloudflare CDN 延迟和速度，获取最快 IP ！当然也支持其他 CDN / 多个解析 IP 的网站 ~
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) `TypeScript` ⭐ 25,944 - The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit you...
-- [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) ⭐ 25,595 - A curated collection of 1000+ agent skills from official dev teams and the community, compatible wit...
-- [Gar-b-age/CookLikeHOC](https://github.com/Gar-b-age/CookLikeHOC) `Dockerfile` ⭐ 23,601 - 🥢像老乡鸡🐔那样做饭。已添加2026年发布的《老乡鸡菜品溯源报告 2.0中新出现的菜品。主要部分于2024年完工，非老乡鸡官方仓库。文字来自《老乡鸡菜品溯源报告》，并做归纳、编辑与整理。CookLik...
-- [coleam00/Archon](https://github.com/coleam00/Archon) `TypeScript` ⭐ 22,418 - The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.
-- [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) `TypeScript` ⭐ 22,375 - 为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件 / Words learning and English muscle memory training software designed for k...
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) `Markdown` ⭐ 516,789 - Master programming by recreating your favorite technologies from scratch.
+- [obra/superpowers](https://github.com/obra/superpowers) `Shell` ⭐ 231,460 - An agentic skills framework & software development methodology that works.
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) `Python` ⭐ 196,410 - The agent that grows with you
+- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) `Python` ⭐ 185,009 - AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provi...
+- [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) ⭐ 177,875 - A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations...
+- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) `C` ⭐ 143,771 - Display and control your Android device
+- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) ⭐ 140,821 - FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, L...
+- [garrytan/gstack](https://github.com/garrytan/gstack) `TypeScript` ⭐ 111,050 - Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manag...
+- [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices) `Dockerfile` ⭐ 105,342 - ✅ The Node.js best practices list (July 2026)
+- [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) `TypeScript` ⭐ 95,057 - JavaScript API for Chrome and Firefox
+- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) `Python` ⭐ 93,236 - An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms
+- [3b1b/manim](https://github.com/3b1b/manim) `Python` ⭐ 87,703 - Animation engine for explanatory math videos
+- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) `TypeScript` ⭐ 87,403 - Model Context Protocol Servers
+- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) `Python` ⭐ 87,035 - TradingAgents: Multi-Agents LLM Financial Trading Framework
+- [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) `Python` ⭐ 77,599 - 🙌 OpenHands: AI-Driven Development
+- [opendatalab/MinerU](https://github.com/opendatalab/MinerU) `Python` ⭐ 67,940 - Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic...
+- [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) `Python` ⭐ 64,685 - 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale ...
+- [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) `Python` ⭐ 59,923 - Clone a voice in 5 seconds to generate arbitrary speech in real-time
+- [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) `HTML` ⭐ 58,207 - from vibe coding to agentic engineering - practice makes claude perfect
+- [upstash/context7](https://github.com/upstash/context7) `TypeScript` ⭐ 57,594 - Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors
+- [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) `TypeScript` ⭐ 55,416 - Spec-driven development (SDD) for AI coding assistants.
+- [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade) `Python` ⭐ 51,569 - Free, open source crypto trading bot
+- [cypress-io/cypress](https://github.com/cypress-io/cypress) `TypeScript` ⭐ 50,322 - Fast, easy and reliable testing for anything that runs in a browser.
+- [aaif-goose/goose](https://github.com/aaif-goose/goose) `Rust` ⭐ 49,727 - an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and ...
+- [JuliaLang/julia](https://github.com/JuliaLang/julia) `Julia` ⭐ 48,865 - The Julia Programming Language
+- [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components) ⭐ 47,799 - Curated List of React Components & Libraries.
+- [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) `TypeScript` ⭐ 47,489 - AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to fr...
+- [oobabooga/textgen](https://github.com/oobabooga/textgen) `Python` ⭐ 47,329 - Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API....
+- [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) `TypeScript` ⭐ 44,784 - 🧡 Everything is RSSible
+- [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) `TypeScript` ⭐ 44,495 - A privacy-first, self-hosted, fully open source personal knowledge management software, written in t...
+- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) `Python` ⭐ 44,115 - AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - th...
+- [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) `TypeScript` ⭐ 42,404 - GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph...
+- [elder-plinius/CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) ⭐ 41,990 - LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MO...
+- [vnpy/vnpy](https://github.com/vnpy/vnpy) `Python` ⭐ 41,752 - 基于Python的开源量化交易平台开发框架
+- [Lordog/dive-into-llms](https://github.com/Lordog/dive-into-llms) `Jupyter Notebook` ⭐ 41,083 - 《动手学大模型Dive into LLMs》系列编程实践教程
+- [chatboxai/chatbox](https://github.com/chatboxai/chatbox) `TypeScript` ⭐ 40,526 - Powerful AI Client
+- [pbakaus/impeccable](https://github.com/pbakaus/impeccable) `JavaScript` ⭐ 39,302 - The design language that makes your AI harness better at design.
+- [RSSNext/Folo](https://github.com/RSSNext/Folo) `TypeScript` ⭐ 38,513 - 🧡 Folo is the AI RSS Reader
+- [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) `Python` ⭐ 35,093 - Build resilient agents.
+- [hehonghui/awesome-english-ebooks](https://github.com/hehonghui/awesome-english-ebooks) `CSS` ⭐ 32,275 - 经济学人(含音频)、纽约客、卫报、连线、大西洋月刊等英语杂志免费下载,支持epub、mobi、pdf格式, 每周更新
+- [AtsushiSakai/PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) `Python` ⭐ 29,789 - Python sample codes and textbook for robotics algorithms.
+- [Leey21/awesome-ai-research-writing](https://github.com/Leey21/awesome-ai-research-writing) ⭐ 28,788 - Elevate your AI research writing, no more tedious polishing ✨ 
+- [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) `JavaScript` ⭐ 27,597 - An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.
+- [srbhr/Resume-Matcher](https://github.com/srbhr/Resume-Matcher) `TypeScript` ⭐ 27,413 - Improve your resumes with Resume Matcher. Get insights, keyword suggestions and tune your resumes to...
+- [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) `Go` ⭐ 27,388 - 🌩「自选优选 IP」测试 Cloudflare CDN 延迟和速度，获取最快 IP ！当然也支持其他 CDN / 多个解析 IP 的网站 ~
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) `TypeScript` ⭐ 25,952 - The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit you...
+- [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) ⭐ 25,705 - A curated collection of 1000+ agent skills from official dev teams and the community, compatible wit...
+- [Gar-b-age/CookLikeHOC](https://github.com/Gar-b-age/CookLikeHOC) `Dockerfile` ⭐ 23,602 - 🥢像老乡鸡🐔那样做饭。已添加2026年发布的《老乡鸡菜品溯源报告 2.0中新出现的菜品。主要部分于2024年完工，非老乡鸡官方仓库。文字来自《老乡鸡菜品溯源报告》，并做归纳、编辑与整理。CookLik...
+- [coleam00/Archon](https://github.com/coleam00/Archon) `TypeScript` ⭐ 22,442 - The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.
+- [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) `TypeScript` ⭐ 22,378 - 为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件 / Words learning and English muscle memory training software designed for k...
+- [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides) `JavaScript` ⭐ 22,112 - Create beautiful slides on the web using a coding agent's frontend skills
 - [dennybritz/reinforcement-learning](https://github.com/dennybritz/reinforcement-learning) `Jupyter Notebook` ⭐ 22,040 - Implementation of Reinforcement Learning Algorithms. Python, OpenAI Gym, Tensorflow. Exercises and S...
-- [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides) `JavaScript` ⭐ 21,968 - Create beautiful slides on the web using a coding agent's frontend skills
-- [AZeC4/TelegramGroup](https://github.com/AZeC4/TelegramGroup) ⭐ 21,666 - 2026最新悄咪咪收集的10000+个Telegram群合集，附全网最有趣好用的机器人BOT🤖【dianbaodaohang.com】
-- [karpathy/llama2.c](https://github.com/karpathy/llama2.c) `C` ⭐ 19,642 - Inference Llama 2 in one file of pure C
-- [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) `HTML` ⭐ 19,019 - Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / ...
-- [xming521/WeClone](https://github.com/xming521/WeClone) `Python` ⭐ 18,029 - 🚀 One-stop solution for creating your AI twin from chat history 💡 Fine-tune LLMs with your chat logs...
-- [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) ⭐ 17,930 - 沉浸式双语网页翻译扩展 , 支持输入框翻译， 鼠标悬停翻译， PDF, Epub, 字幕文件, TXT 文件翻译 - Immersive Dual Web Page Translation Exten...
-- [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) `HTML` ⭐ 17,746 - AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image...
-- [ai-shifu/ChatALL](https://github.com/ai-shifu/ChatALL) `JavaScript` ⭐ 16,412 -  Concurrently chat with ChatGPT, Bing Chat, Bard, Alpaca, Vicuna, Claude, ChatGLM, MOSS, 讯飞星火, 文心一言 ...
-- [LlamaChinese/Llama-Chinese](https://github.com/LlamaChinese/Llama-Chinese) `Python` ⭐ 14,713 - Llama中文社区，实时汇总最新Llama学习资料，构建最好的中文Llama大模型开源生态，完全开源可商用
-- [languagetool-org/languagetool](https://github.com/languagetool-org/languagetool) `Java` ⭐ 14,581 - Style and Grammar Checker for 25+ Languages
-- [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) ⭐ 14,060 - ⛅️ 精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。/ ⛅️ A curated list of Cloudflare tools, open source projects...
-- [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) `C++` ⭐ 13,896 - Multi-Joint dynamics with Contact. A general purpose physics simulator.
-- [fish2018/pansou](https://github.com/fish2018/pansou) `Go` ⭐ 13,537 - PanSou是一款高性能的网盘资源搜索API服务，支持TG频道和插件搜索。系统设计以性能和可扩展性为核心，支持多频道多插件并发搜索、结果智能排序和网盘类型分类。docker集成前后端，一键启动，开箱即...
-- [doocs/md](https://github.com/doocs/md) `Vue` ⭐ 12,851 - ✍ WeChat Markdown Editor | 一款高度简洁的微信 Markdown 编辑器：支持 Markdown 语法、自定义主题样式、内容管理、多图床、AI 助手等特性
-- [waooAI/waoowaoo](https://github.com/waooAI/waoowaoo) `TypeScript` ⭐ 12,768 - 首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video produ...
-- [supertone-inc/supertonic](https://github.com/supertone-inc/supertonic) `Swift` ⭐ 12,371 - Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.
-- [noodle-run/noodle](https://github.com/noodle-run/noodle) `TypeScript` ⭐ 12,234 - Rethinking Student Productivity
-- [Wei-Shaw/claude-relay-service](https://github.com/Wei-Shaw/claude-relay-service) `JavaScript` ⭐ 12,113 - CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。
-- [HW-whistleblower/True-Story-of-Pangu](https://github.com/HW-whistleblower/True-Story-of-Pangu) ⭐ 11,526 - 诺亚盘古大模型研发背后的真正的心酸与黑暗的故事。
-- [svcvit/Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow) ⭐ 10,596 - 分享一些好用的 Dify DSL 工作流程，自用、学习两相宜。 Sharing some Dify workflows.
-- [mindfold-ai/Trellis](https://github.com/mindfold-ai/Trellis) `TypeScript` ⭐ 10,546 - The best agent harness.
+- [AZeC4/TelegramGroup](https://github.com/AZeC4/TelegramGroup) ⭐ 21,678 - 2026最新悄咪咪收集的10000+个Telegram群合集，附全网最有趣好用的机器人BOT🤖【dianbaodaohang.com】
+- [karpathy/llama2.c](https://github.com/karpathy/llama2.c) `C` ⭐ 19,645 - Inference Llama 2 in one file of pure C
+- [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) `HTML` ⭐ 19,126 - Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / ...
+- [xming521/WeClone](https://github.com/xming521/WeClone) `Python` ⭐ 18,028 - 🚀 One-stop solution for creating your AI twin from chat history 💡 Fine-tune LLMs with your chat logs...
+- [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) ⭐ 17,937 - 沉浸式双语网页翻译扩展 , 支持输入框翻译， 鼠标悬停翻译， PDF, Epub, 字幕文件, TXT 文件翻译 - Immersive Dual Web Page Translation Exten...
+- [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) `HTML` ⭐ 17,920 - AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image...
+- [ai-shifu/ChatALL](https://github.com/ai-shifu/ChatALL) `JavaScript` ⭐ 16,411 -  Concurrently chat with ChatGPT, Bing Chat, Bard, Alpaca, Vicuna, Claude, ChatGLM, MOSS, 讯飞星火, 文心一言 ...
+- [LlamaChinese/Llama-Chinese](https://github.com/LlamaChinese/Llama-Chinese) `Python` ⭐ 14,716 - Llama中文社区，实时汇总最新Llama学习资料，构建最好的中文Llama大模型开源生态，完全开源可商用
+- [languagetool-org/languagetool](https://github.com/languagetool-org/languagetool) `Java` ⭐ 14,589 - Style and Grammar Checker for 25+ Languages
+- [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) ⭐ 14,067 - ⛅️ 精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。/ ⛅️ A curated list of Cloudflare tools, open source projects...
+- [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) `C++` ⭐ 13,907 - Multi-Joint dynamics with Contact. A general purpose physics simulator.
+- [fish2018/pansou](https://github.com/fish2018/pansou) `Go` ⭐ 13,552 - PanSou是一款高性能的网盘资源搜索API服务，支持TG频道和插件搜索。系统设计以性能和可扩展性为核心，支持多频道多插件并发搜索、结果智能排序和网盘类型分类。docker集成前后端，一键启动，开箱即...
+- [doocs/md](https://github.com/doocs/md) `Vue` ⭐ 12,852 - ✍ WeChat Markdown Editor | 一款高度简洁的微信 Markdown 编辑器：支持 Markdown 语法、自定义主题样式、内容管理、多图床、AI 助手等特性
+- [waooAI/waoowaoo](https://github.com/waooAI/waoowaoo) `TypeScript` ⭐ 12,791 - 首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video produ...
+- [supertone-inc/supertonic](https://github.com/supertone-inc/supertonic) `Swift` ⭐ 12,394 - Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.
+- [noodle-run/noodle](https://github.com/noodle-run/noodle) `TypeScript` ⭐ 12,233 - Rethinking Student Productivity
+- [Wei-Shaw/claude-relay-service](https://github.com/Wei-Shaw/claude-relay-service) `JavaScript` ⭐ 12,125 - CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。
+- [HW-whistleblower/True-Story-of-Pangu](https://github.com/HW-whistleblower/True-Story-of-Pangu) ⭐ 11,531 - 诺亚盘古大模型研发背后的真正的心酸与黑暗的故事。
+- [svcvit/Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow) ⭐ 10,599 - 分享一些好用的 Dify DSL 工作流程，自用、学习两相宜。 Sharing some Dify workflows.
+- [mindfold-ai/Trellis](https://github.com/mindfold-ai/Trellis) `TypeScript` ⭐ 10,597 - The best agent harness.
 - [zhm-real/PathPlanning](https://github.com/zhm-real/PathPlanning) `Python` ⭐ 9,293 - Common used path planning algorithms with animations.
-- [agefanscom/website](https://github.com/agefanscom/website) ⭐ 9,225 - AGE animation official website URL release page（AGE动漫官网网址发布页）
-- [sjzar/chatlog](https://github.com/sjzar/chatlog) ⭐ 9,181 - chat log tool, easily use your own chat data. 聊天记录工具，轻松使用自己的聊天数据
-- [weijunext/indie-hacker-tools](https://github.com/weijunext/indie-hacker-tools) ⭐ 7,905 - 收录独立开发者出海技术栈和工具
-- [windingwind/zotero-better-notes](https://github.com/windingwind/zotero-better-notes) `TypeScript` ⭐ 7,870 - Everything about note management. All in Zotero.
-- [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) `JavaScript` ⭐ 7,639 - Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中
-- [YouMind-OpenLab/awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) `TypeScript` ⭐ 7,569 - 🚀 World's largest GPT Image 2 prompt library, updated daily — 2000+ curated prompts with preview ima...
-- [zai-org/CodeGeeX2](https://github.com/zai-org/CodeGeeX2) `Python` ⭐ 7,550 - CodeGeeX2: A More Powerful Multilingual Code Generation Model
-- [loks666/get_jobs](https://github.com/loks666/get_jobs) `Java` ⭐ 7,385 - 💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)
-- [TheCraigHewitt/seomachine](https://github.com/TheCraigHewitt/seomachine) `Python` ⭐ 7,145 - A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any busin...
-- [WXRIW/Lyricify-App](https://github.com/WXRIW/Lyricify-App) ⭐ 6,950 - Lyricify (/lɪ'rɪsəfaɪ/), a fantastic app to provide scroll lyrics for Spotify and other apps. 一款为 Sp...
-- [nexu-io/html-anything](https://github.com/nexu-io/html-anything) `HTML` ⭐ 6,905 - ✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfac...
-- [AILab-CVC/YOLO-World](https://github.com/AILab-CVC/YOLO-World) `Python` ⭐ 6,418 - [CVPR 2024] Real-Time Open-Vocabulary Object Detection
-- [cv-cat/Spider_XHS](https://github.com/cv-cat/Spider_XHS) `JavaScript` ⭐ 6,394 - 小红书爬虫数据采集，小红书全域运营解决方案
-- [lewislulu/html-ppt-skill](https://github.com/lewislulu/html-ppt-skill) `HTML` ⭐ 6,185 - HTML PPT Studio — AgentSkill with 24 themes, 31 layouts, 20+ animations for building professional HT...
-- [snailyp/gemini-balance](https://github.com/snailyp/gemini-balance) `Python` ⭐ 5,862 - Gemini polling proxy service （gemini轮询代理服务）
+- [agefanscom/website](https://github.com/agefanscom/website) ⭐ 9,230 - AGE animation official website URL release page（AGE动漫官网网址发布页）
+- [sjzar/chatlog](https://github.com/sjzar/chatlog) ⭐ 9,180 - chat log tool, easily use your own chat data. 聊天记录工具，轻松使用自己的聊天数据
+- [jasonppy/VoiceCraft](https://github.com/jasonppy/VoiceCraft) `Jupyter Notebook` ⭐ 8,500 - Zero-Shot Speech Editing and Text-to-Speech in the Wild
+- [weijunext/indie-hacker-tools](https://github.com/weijunext/indie-hacker-tools) ⭐ 7,906 - 收录独立开发者出海技术栈和工具
+- [windingwind/zotero-better-notes](https://github.com/windingwind/zotero-better-notes) `TypeScript` ⭐ 7,879 - Everything about note management. All in Zotero.
+- [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) `JavaScript` ⭐ 7,680 - Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中
+- [YouMind-OpenLab/awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) `TypeScript` ⭐ 7,609 - 🚀 World's largest GPT Image 2 prompt library, updated daily — 2000+ curated prompts with preview ima...
+- [zai-org/CodeGeeX2](https://github.com/zai-org/CodeGeeX2) `Python` ⭐ 7,548 - CodeGeeX2: A More Powerful Multilingual Code Generation Model
+- [loks666/get_jobs](https://github.com/loks666/get_jobs) `Java` ⭐ 7,395 - 💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)
+- [TheCraigHewitt/seomachine](https://github.com/TheCraigHewitt/seomachine) `Python` ⭐ 7,149 - A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any busin...
+- [WXRIW/Lyricify-App](https://github.com/WXRIW/Lyricify-App) ⭐ 6,955 - Lyricify (/lɪ'rɪsəfaɪ/), a fantastic app to provide scroll lyrics for Spotify and other apps. 一款为 Sp...
+- [nexu-io/html-anything](https://github.com/nexu-io/html-anything) `HTML` ⭐ 6,954 - ✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfac...
+- [AILab-CVC/YOLO-World](https://github.com/AILab-CVC/YOLO-World) `Python` ⭐ 6,421 - [CVPR 2024] Real-Time Open-Vocabulary Object Detection
+- [cv-cat/Spider_XHS](https://github.com/cv-cat/Spider_XHS) `JavaScript` ⭐ 6,417 - 小红书爬虫数据采集，小红书全域运营解决方案
+- [lewislulu/html-ppt-skill](https://github.com/lewislulu/html-ppt-skill) `HTML` ⭐ 6,240 - HTML PPT Studio — AgentSkill with 24 themes, 31 layouts, 20+ animations for building professional HT...
+- [snailyp/gemini-balance](https://github.com/snailyp/gemini-balance) `Python` ⭐ 5,861 - Gemini polling proxy service （gemini轮询代理服务）
 - [ChaoningZhang/MobileSAM](https://github.com/ChaoningZhang/MobileSAM) `Jupyter Notebook` ⭐ 5,793 - This is the official code for MobileSAM project that makes SAM lightweight for mobile applications a...
-- [MuiseDestiny/zotero-style](https://github.com/MuiseDestiny/zotero-style) `JavaScript` ⭐ 5,056 - Ethereal Style for Zotero
-- [chanind/hanzi-writer](https://github.com/chanind/hanzi-writer) `TypeScript` ⭐ 4,826 - Chinese character stroke order animations and practice quizzes
-- [ahmetbersoz/chatgpt-prompts-for-academic-writing](https://github.com/ahmetbersoz/chatgpt-prompts-for-academic-writing) ⭐ 4,760 - This list of writing prompts covers a range of topics and tasks, including brainstorming research id...
-- [Mintimate/oh-my-rime](https://github.com/Mintimate/oh-my-rime) `Lua` ⭐ 4,712 - The Simple Config Template Of Rime By Mintimate.  
-- [u14app/deep-research](https://github.com/u14app/deep-research) `JavaScript` ⭐ 4,613 - Use any LLMs (Large Language Models) for Deep Research. Support SSE API and MCP server.
-- [afshinea/stanford-cme-295-transformers-large-language-models](https://github.com/afshinea/stanford-cme-295-transformers-large-language-models) ⭐ 4,492 - VIP cheatsheet for Stanford's CME 295 Transformers and Large Language Models
+- [MuiseDestiny/zotero-style](https://github.com/MuiseDestiny/zotero-style) `JavaScript` ⭐ 5,059 - Ethereal Style for Zotero
+- [chanind/hanzi-writer](https://github.com/chanind/hanzi-writer) `TypeScript` ⭐ 4,827 - Chinese character stroke order animations and practice quizzes
+- [ahmetbersoz/chatgpt-prompts-for-academic-writing](https://github.com/ahmetbersoz/chatgpt-prompts-for-academic-writing) ⭐ 4,762 - This list of writing prompts covers a range of topics and tasks, including brainstorming research id...
+- [Mintimate/oh-my-rime](https://github.com/Mintimate/oh-my-rime) `Lua` ⭐ 4,716 - The Simple Config Template Of Rime By Mintimate.  
+- [u14app/deep-research](https://github.com/u14app/deep-research) `JavaScript` ⭐ 4,615 - Use any LLMs (Large Language Models) for Deep Research. Support SSE API and MCP server.
+- [afshinea/stanford-cme-295-transformers-large-language-models](https://github.com/afshinea/stanford-cme-295-transformers-large-language-models) ⭐ 4,498 - VIP cheatsheet for Stanford's CME 295 Transformers and Large Language Models
 - [real-stanford/diffusion_policy](https://github.com/real-stanford/diffusion_policy) `Python` ⭐ 4,283 - [RSS 2023] Diffusion Policy Visuomotor Policy Learning via Action Diffusion
-- [basketikun/chatgpt2api](https://github.com/basketikun/chatgpt2api) `Python` ⭐ 4,207 - ChatGPT官网接口纯协议的逆向实现，支持注册机维持号池额度，支持GPT-Image-2模型、文本模型，兼容OpenAI接口协议，在线批量生图/编辑图，号池管理，支持可编辑PPT/PSD文件逆向，支...
-- [coderamp-labs/pad.ws](https://github.com/coderamp-labs/pad.ws) `TypeScript` ⭐ 4,129 - Whiteboard as an IDE, draw and code in your browser
-- [buxuku/SmartSub](https://github.com/buxuku/SmartSub) `TypeScript` ⭐ 3,965 - 「妙幕」是一款跨平台客户端工具，可以批量为视频或者音频生成字幕文件，并支持对字幕进行翻译，支持百度、火山、openai、ollama、deepseek 等多家翻译
-- [FoundZiGu/GuJumpgate](https://github.com/FoundZiGu/GuJumpgate) `JavaScript` ⭐ 3,897
-- [golutra/golutra](https://github.com/golutra/golutra) `Rust` ⭐ 3,684 - Multi-agent AI orchestration platform for automation, workflows, and developer tools. Golutra transf...
-- [odriverobotics/ODrive](https://github.com/odriverobotics/ODrive) `C++` ⭐ 3,658 - High performance motor control
-- [ZSeven-W/openpencil](https://github.com/ZSeven-W/openpencil) `TypeScript` ⭐ 3,356 - The world's first open-source AI-native vector design tool and the first to feature concurrent Agent...
+- [basketikun/chatgpt2api](https://github.com/basketikun/chatgpt2api) `Python` ⭐ 4,251 - ChatGPT官网接口纯协议的逆向实现，支持注册机维持号池额度，支持GPT-Image-2模型、文本模型，兼容OpenAI接口协议，在线批量生图/编辑图，号池管理，支持可编辑PPT/PSD文件逆向，支...
+- [coderamp-labs/pad.ws](https://github.com/coderamp-labs/pad.ws) `TypeScript` ⭐ 4,125 - Whiteboard as an IDE, draw and code in your browser
+- [buxuku/SmartSub](https://github.com/buxuku/SmartSub) `TypeScript` ⭐ 3,966 - 「妙幕」是一款跨平台客户端工具，可以批量为视频或者音频生成字幕文件，并支持对字幕进行翻译，支持百度、火山、openai、ollama、deepseek 等多家翻译
+- [FoundZiGu/GuJumpgate](https://github.com/FoundZiGu/GuJumpgate) `JavaScript` ⭐ 3,903
+- [golutra/golutra](https://github.com/golutra/golutra) `Rust` ⭐ 3,692 - Multi-agent AI orchestration platform for automation, workflows, and developer tools. Golutra transf...
+- [odriverobotics/ODrive](https://github.com/odriverobotics/ODrive) `C++` ⭐ 3,662 - High performance motor control
+- [ZSeven-W/openpencil](https://github.com/ZSeven-W/openpencil) `TypeScript` ⭐ 3,359 - The world's first open-source AI-native vector design tool and the first to feature concurrent Agent...
 - [mit-han-lab/efficientvit](https://github.com/mit-han-lab/efficientvit) `Python` ⭐ 3,322 - Efficient vision foundation models for high-resolution generation and perception.
-- [op7418/NanoBanana-PPT-Skills](https://github.com/op7418/NanoBanana-PPT-Skills) `Python` ⭐ 2,993 - NanoBanana PPT Skills 基于 AI 自动生成高质量 PPT 图片和视频的强大工具，支持智能转场和交互式播放
+- [op7418/NanoBanana-PPT-Skills](https://github.com/op7418/NanoBanana-PPT-Skills) `Python` ⭐ 2,998 - NanoBanana PPT Skills 基于 AI 自动生成高质量 PPT 图片和视频的强大工具，支持智能转场和交互式播放
 - [vitalets/github-trending-repos](https://github.com/vitalets/github-trending-repos) `HTML` ⭐ 2,955 - Track GitHub trending repositories in your favorite programming language by native GitHub notificati...
-- [malinkang/weread2notion](https://github.com/malinkang/weread2notion) `Python` ⭐ 2,894 - 将微信读书划线同步到Notion
-- [lxf746/any-auto-register](https://github.com/lxf746/any-auto-register) `Python` ⭐ 2,753 - Auto-register & manage accounts for ChatGPT, Cursor, Kiro, Grok, Windsurf, Trae & 13+ AI platforms ·...
+- [malinkang/weread2notion](https://github.com/malinkang/weread2notion) `Python` ⭐ 2,896 - 将微信读书划线同步到Notion
+- [lxf746/any-auto-register](https://github.com/lxf746/any-auto-register) `Python` ⭐ 2,762 - Auto-register & manage accounts for ChatGPT, Cursor, Kiro, Grok, Windsurf, Trae & 13+ AI platforms ·...
 - [cyfyifanchen/one-person-company](https://github.com/cyfyifanchen/one-person-company) ⭐ 2,707 - 遇事不决，Vibe 力学! One-Person Company AI Tools Series – continuously updated to help boost productivity a...
-- [worldwonderer/oh-story-claudecode](https://github.com/worldwonderer/oh-story-claudecode) `JavaScript` ⭐ 2,652 - 网文/小说写作 skill 包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去AI味、封面图全流程
-- [ZJU-FAST-Lab/Fast-Drone-250](https://github.com/ZJU-FAST-Lab/Fast-Drone-250) `C++` ⭐ 2,417 - hardware and software design of the 250mm autonomous drone
-- [Norman-bury/research-writing-skill](https://github.com/Norman-bury/research-writing-skill) `Python` ⭐ 2,402 - 科研写作助手 (Research Writing Assistant)
-- [warp-id/solana-trading-bot](https://github.com/warp-id/solana-trading-bot) `TypeScript` ⭐ 2,326 - Solana Trading Bot - Beta
-- [cv-cat/DouYin_Spider](https://github.com/cv-cat/DouYin_Spider) `JavaScript` ⭐ 2,160 - 抖音逆向，抖音爬虫，抖音全部api、私信、直播间监听
-- [catlog22/Claude-Code-Workflow](https://github.com/catlog22/Claude-Code-Workflow) `TypeScript` ⭐ 2,120 -  JSON-driven multi-agent  cadence-team development framework with   intelligent CLI orchestration (G...
-- [DanOps-1/Gpt-Agreement-Payment](https://github.com/DanOps-1/Gpt-Agreement-Payment) `Python` ⭐ 2,106 - ChatGPT Plus/Team/Pro 订阅协议端到端重放工具集 · hCaptcha 视觉求解器 · 反欺诈机制实证研究 / End-to-end protocol replay toolkit...
-- [cyberagiinc/DevDocs](https://github.com/cyberagiinc/DevDocs) `TypeScript` ⭐ 2,096 - Completely free, private, UI based Tech Documentation MCP server. Designed for coders and software d...
-- [natolambert/rlhf-book](https://github.com/natolambert/rlhf-book) `Python` ⭐ 2,003 - Textbook on reinforcement learning from human feedback
-- [BetaStreetOmnis/xhs_ai_publisher](https://github.com/BetaStreetOmnis/xhs_ai_publisher) `Python` ⭐ 1,986 - AI-powered Xiaohongshu/Rednote content creation and publishing tool with PyQt desktop UI, FastAPI se...
-- [guy-hartstein/company-research-agent](https://github.com/guy-hartstein/company-research-agent) `Python` ⭐ 1,973 - An agentic company research tool powered by LangGraph and Tavily that conducts deep diligence on com...
-- [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) `PowerShell` ⭐ 1,880 - Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powere...
+- [worldwonderer/oh-story-claudecode](https://github.com/worldwonderer/oh-story-claudecode) `JavaScript` ⭐ 2,702 - 网文/小说写作 skill 包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去AI味、封面图全流程
+- [ZJU-FAST-Lab/Fast-Drone-250](https://github.com/ZJU-FAST-Lab/Fast-Drone-250) `C++` ⭐ 2,418 - hardware and software design of the 250mm autonomous drone
+- [Norman-bury/research-writing-skill](https://github.com/Norman-bury/research-writing-skill) `Python` ⭐ 2,417 - 科研写作助手 (Research Writing Assistant)
+- [warp-id/solana-trading-bot](https://github.com/warp-id/solana-trading-bot) `TypeScript` ⭐ 2,324 - Solana Trading Bot - Beta
+- [cv-cat/DouYin_Spider](https://github.com/cv-cat/DouYin_Spider) `JavaScript` ⭐ 2,163 - 抖音逆向，抖音爬虫，抖音全部api、私信、直播间监听
+- [catlog22/Claude-Code-Workflow](https://github.com/catlog22/Claude-Code-Workflow) `TypeScript` ⭐ 2,124 -  JSON-driven multi-agent  cadence-team development framework with   intelligent CLI orchestration (G...
+- [DanOps-1/Gpt-Agreement-Payment](https://github.com/DanOps-1/Gpt-Agreement-Payment) `Python` ⭐ 2,105 - ChatGPT Plus/Team/Pro 订阅协议端到端重放工具集 · hCaptcha 视觉求解器 · 反欺诈机制实证研究 / End-to-end protocol replay toolkit...
+- [cyberagiinc/DevDocs](https://github.com/cyberagiinc/DevDocs) `TypeScript` ⭐ 2,094 - Completely free, private, UI based Tech Documentation MCP server. Designed for coders and software d...
+- [natolambert/rlhf-book](https://github.com/natolambert/rlhf-book) `Python` ⭐ 2,008 - Textbook on reinforcement learning from human feedback
+- [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) `PowerShell` ⭐ 2,002 - Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powere...
+- [BetaStreetOmnis/xhs_ai_publisher](https://github.com/BetaStreetOmnis/xhs_ai_publisher) `Python` ⭐ 1,987 - AI-powered Xiaohongshu/Rednote content creation and publishing tool with PyQt desktop UI, FastAPI se...
+- [guy-hartstein/company-research-agent](https://github.com/guy-hartstein/company-research-agent) `Python` ⭐ 1,972 - An agentic company research tool powered by LangGraph and Tavily that conducts deep diligence on com...
 - [cloudflare/workers-oauth-provider](https://github.com/cloudflare/workers-oauth-provider) `TypeScript` ⭐ 1,791 - OAuth provider library for Cloudflare Workers
 - [xiaohanyu/awesome-tikz](https://github.com/xiaohanyu/awesome-tikz) ⭐ 1,776 - A curated list of awesome TikZ documentations, libraries and resources
-- [Feather-2/Burner-X](https://github.com/Feather-2/Burner-X) `JavaScript` ⭐ 1,725 - Burner X - 浏览器即开即用，AI文献识别、文档批量翻译、阅读与智能分析工具 丨BYOK
-- [ethz-adrl/control-toolbox](https://github.com/ethz-adrl/control-toolbox) `C++` ⭐ 1,686 - The Control Toolbox - An Open-Source C++ Library for Robotics, Optimal and Model Predictive Control
-- [ZeroPointSix/outlookEmailPlus](https://github.com/ZeroPointSix/outlookEmailPlus) `Python` ⭐ 1,553 -  Outlookmail Plus: Designed Specifically for Registration  |  Outlookmail Plus：专为注册而生  |  
+- [Feather-2/Burner-X](https://github.com/Feather-2/Burner-X) `JavaScript` ⭐ 1,724 - Burner X - 浏览器即开即用，AI文献识别、文档批量翻译、阅读与智能分析工具 丨BYOK
+- [ethz-adrl/control-toolbox](https://github.com/ethz-adrl/control-toolbox) `C++` ⭐ 1,687 - The Control Toolbox - An Open-Source C++ Library for Robotics, Optimal and Model Predictive Control
+- [ZeroPointSix/outlookEmailPlus](https://github.com/ZeroPointSix/outlookEmailPlus) `Python` ⭐ 1,560 -  Outlookmail Plus: Designed Specifically for Registration  |  Outlookmail Plus：专为注册而生  |  
 - [unlir/XDrive](https://github.com/unlir/XDrive) `C` ⭐ 1,532 - Stepper motor with multi-function interface and closed loop function. 具有多功能接口和闭环功能的步进电机。
-- [autoclaw-cc/xiaohongshu-skills](https://github.com/autoclaw-cc/xiaohongshu-skills) `Python` ⭐ 1,511 - xiaohongshu-skills
+- [autoclaw-cc/xiaohongshu-skills](https://github.com/autoclaw-cc/xiaohongshu-skills) `Python` ⭐ 1,514 - xiaohongshu-skills
 - [TIGER-AI-Lab/TheoremExplainAgent](https://github.com/TIGER-AI-Lab/TheoremExplainAgent) `Python` ⭐ 1,495 - Official Repo for "TheoremExplainAgent: Towards Video-based Multimodal Explanations for LLM Theorem ...
-- [knmcguire/best-of-robot-simulators](https://github.com/knmcguire/best-of-robot-simulators) ⭐ 1,342 - A Best-of-list of Robot Simulators, re-generated weekly on Wednesdays
-- [xstongxue/best-prompts](https://github.com/xstongxue/best-prompts) ⭐ 1,242 - 通用高质量 Prompt 合集🔥
-- [yym68686/uni-api](https://github.com/yym68686/uni-api) `Python` ⭐ 1,228 - This is a project that unifies the management of LLM APIs. It can call multiple backend services thr...
+- [knmcguire/best-of-robot-simulators](https://github.com/knmcguire/best-of-robot-simulators) ⭐ 1,343 - A Best-of-list of Robot Simulators, re-generated weekly on Wednesdays
+- [xstongxue/best-prompts](https://github.com/xstongxue/best-prompts) ⭐ 1,245 - 通用高质量 Prompt 合集🔥
+- [yym68686/uni-api](https://github.com/yym68686/uni-api) `Python` ⭐ 1,227 - This is a project that unifies the management of LLM APIs. It can call multiple backend services thr...
 - [cnitlrt/AutoTeam](https://github.com/cnitlrt/AutoTeam) `Python` ⭐ 1,226 - ChatGPT Team 账号自动轮转管理 - Codex 额度监控、自动换号、邮箱注册、CPA/Sub2API 认证同步
 - [liujuntao123/smart-mermaid](https://github.com/liujuntao123/smart-mermaid) `JavaScript` ⭐ 1,143 - 一款基于 AI 技术的 Web 应用程序，可将文本内容智能转换为 Mermaid 格式的代码，并将其渲染成可视化图表。
 - [tibbar213/team-manage](https://github.com/tibbar213/team-manage) `Python` ⭐ 1,056 - gpt team管理和自动邀请
 - [Fields2Cover/Fields2Cover](https://github.com/Fields2Cover/Fields2Cover) `C++` ⭐ 826 - Robust and efficient coverage paths for autonomous agricultural vehicles.  A modular and extensible ...
 - [Higurashi-kagome/wereader](https://github.com/Higurashi-kagome/wereader) `TypeScript` ⭐ 777 - 一个浏览器扩展：主要用于微信读书做笔记，对常使用 Markdown 做笔记的读者比较有帮助。
-- [open-webui/docs](https://github.com/open-webui/docs) `CSS` ⭐ 768 - https://docs.openwebui.com
-- [LainsNL/OutlookRegister](https://github.com/LainsNL/OutlookRegister) `Python` ⭐ 757 - Outlook 注册机
+- [open-webui/docs](https://github.com/open-webui/docs) `CSS` ⭐ 770 - https://docs.openwebui.com
+- [LainsNL/OutlookRegister](https://github.com/LainsNL/OutlookRegister) `Python` ⭐ 760 - Outlook 注册机
 - [PX4/PX4-Avoidance](https://github.com/PX4/PX4-Avoidance) `C++` ⭐ 745 - PX4 avoidance ROS node for obstacle detection and avoidance.
 - [makeecat/Peng](https://github.com/makeecat/Peng) `Rust` ⭐ 693 - A minimal quadrotor autonomy framework in Rust (Mac, Linux, Windows)
-- [0xsline/short-drama](https://github.com/0xsline/short-drama) ⭐ 682 - 专业的短剧剧本创作skill,从选题立项到分集撰写、质量自检、合规审核、海外出海，覆盖短剧剧本生产全流程。
+- [0xsline/short-drama](https://github.com/0xsline/short-drama) ⭐ 688 - 专业的短剧剧本创作skill,从选题立项到分集撰写、质量自检、合规审核、海外出海，覆盖短剧剧本生产全流程。
 - [PKM-er/Pkmer-Docs](https://github.com/PKM-er/Pkmer-Docs) `JavaScript` ⭐ 593 - Pkmer知识管理共建项目
 - [freestylefly/mcp-server-weread](https://github.com/freestylefly/mcp-server-weread) `JavaScript` ⭐ 557 - 微信读书MCP
 - [jaywcjlove/wxmp](https://github.com/jaywcjlove/wxmp) `TypeScript` ⭐ 534 - 微信公众号文章 Markdown 编辑器，使用 markdown 语法创建一篇简介美观大方的微信公众号图文。
-- [dc-ai-projects/DC-Gen](https://github.com/dc-ai-projects/DC-Gen) `Python` ⭐ 387 - DC-Gen: Post-Training Diffusion Acceleration with Deeply Compressed Latent Space
+- [dc-ai-projects/DC-Gen](https://github.com/dc-ai-projects/DC-Gen) `Python` ⭐ 388 - DC-Gen: Post-Training Diffusion Acceleration with Deeply Compressed Latent Space
 - [Specia1z/AWS-BuildID-Auto-For-Ext](https://github.com/Specia1z/AWS-BuildID-Auto-For-Ext) `JavaScript` ⭐ 371 - ⚡ 一键自动化注册 AWS Builder ID 的浏览器扩展
 - [Ogannesson/ashare-llm-analyst](https://github.com/Ogannesson/ashare-llm-analyst) `Python` ⭐ 350 - 基于Python的A股智能分析工具，结合大语言模型提供数据驱动的投资建议和市场洞察
-- [zy-zmc/tianming-novel-ai-writer](https://github.com/zy-zmc/tianming-novel-ai-writer) `C#` ⭐ 315 - 天命 — AI小说创作/写作系统 | 15维事实快照 · 12类变更声明 · 6道生成门禁 | 写到3000章依然连贯，不依赖上下文，不靠模型记忆，靠每章状态回写
+- [zy-zmc/tianming-novel-ai-writer](https://github.com/zy-zmc/tianming-novel-ai-writer) `C#` ⭐ 318 - 天命 — AI小说创作/写作系统 | 15维事实快照 · 12类变更声明 · 6道生成门禁 | 写到3000章依然连贯，不依赖上下文，不靠模型记忆，靠每章状态回写
 - [lis-epfl/swarmlab](https://github.com/lis-epfl/swarmlab) `MATLAB` ⭐ 304 - SmarmLab: a versatile Matlab package for drone swarm simulation.
-- [alireza787b/mavsdk_drone_show](https://github.com/alireza787b/mavsdk_drone_show) `Python` ⭐ 297 - Open-source MAVLink fleet operations for PX4: SITL, drone shows, search and rescue, cooperative auto...
-- [jacepark12/ticktick-mcp](https://github.com/jacepark12/ticktick-mcp) `Python` ⭐ 293 - MCP server that interacts with TickTick (Dida 365) via the TickTick Open API
-- [Spanky96/glm-coding-grabber](https://github.com/Spanky96/glm-coding-grabber) `JavaScript` ⭐ 271 - glm 智谱 codingplan 抢购助手 tempermonkey + python验证码自动识别
+- [Spanky96/glm-coding-grabber](https://github.com/Spanky96/glm-coding-grabber) `JavaScript` ⭐ 302 - glm 智谱 codingplan 抢购助手 tempermonkey + python验证码自动识别
+- [alireza787b/mavsdk_drone_show](https://github.com/alireza787b/mavsdk_drone_show) `Python` ⭐ 298 - Open-source MAVLink fleet operations for PX4: SITL, drone shows, search and rescue, cooperative auto...
+- [jacepark12/ticktick-mcp](https://github.com/jacepark12/ticktick-mcp) `Python` ⭐ 294 - MCP server that interacts with TickTick (Dida 365) via the TickTick Open API
 - [nailuoGG/anki-mcp-server](https://github.com/nailuoGG/anki-mcp-server) `TypeScript` ⭐ 243 - MCP server for Anki via AnkiConnect
 - [siyuan-note/bazaar](https://github.com/siyuan-note/bazaar) `Go` ⭐ 233 - SiYuan community marketplace
 - [terwer/siyuan-plugin-publisher](https://github.com/terwer/siyuan-plugin-publisher) `TypeScript` ⭐ 206 - V2 is on the way✈️ Publish articles from siyuan-note to platforms such as Yuque, etc.Free and open s...
 - [BaoBaoDualang/SmallRunningWiki](https://github.com/BaoBaoDualang/SmallRunningWiki) ⭐ 199 - 润学小维基，分享一些润学资料
 - [Disdjj/codelf](https://github.com/Disdjj/codelf) `JavaScript` ⭐ 195 - make cursor/windsurf work better
 - [zxkmm/siyuan_doctree_compress](https://github.com/zxkmm/siyuan_doctree_compress) `TypeScript` ⭐ 162 - A SiYuan plugin that provide you the capability to fully modify the doctree
-- [buluslan/gpt-image2-ecommerce](https://github.com/buluslan/gpt-image2-ecommerce) `Shell` ⭐ 160 - GPT-Image-2 驱动的电商素材一键生成 Claude Code Skill | E-commerce image generation skill powered by GPT-Image-2...
+- [buluslan/gpt-image2-ecommerce](https://github.com/buluslan/gpt-image2-ecommerce) `Shell` ⭐ 161 - GPT-Image-2 驱动的电商素材一键生成 Claude Code Skill | E-commerce image generation skill powered by GPT-Image-2...
 - [RoboticsPolyu/IPN_MPC](https://github.com/RoboticsPolyu/IPN_MPC) `C++` ⭐ 154 - Joinied Positioning and Control Model Based on Factor Graph Optimization (FGO)
 - [xiaozhi349/outlookEmail](https://github.com/xiaozhi349/outlookEmail) `HTML` ⭐ 133
 - [QYLexpired/QYL-theme](https://github.com/QYLexpired/QYL-theme) `JavaScript` ⭐ 128 - SiYuan-note QYL theme
-- [lulistart/Kiro2api-Node](https://github.com/lulistart/Kiro2api-Node) `JavaScript` ⭐ 120
+- [lulistart/Kiro2api-Node](https://github.com/lulistart/Kiro2api-Node) `JavaScript` ⭐ 119
 - [maimemo/kaishi-zh-cn](https://github.com/maimemo/kaishi-zh-cn) ⭐ 113 - Kaishi 1.5k 日语基础词汇牌组汉化版
 - [siyuan-note/oceanpress_old](https://github.com/siyuan-note/oceanpress_old) `JavaScript` ⭐ 89 - 将 Markdown 文件转换为 HTML 生成静态站点的工具，专为思源笔记实现了许多特有渲染效果。
 - [honwhy/md](https://github.com/honwhy/md) `Vue` ⭐ 78 - ✍ WeChat Markdown Editor | 一款高度简洁的微信 Markdown 编辑器：支持 Markdown 语法、自定义主题样式、内容管理、多图床、AI 助手等特性
@@ -188,6 +189,7 @@
 - [2234839/siyuan-notes-skill](https://github.com/2234839/siyuan-notes-skill) `JavaScript` ⭐ 52
 - [ebAobS/roaming-mode-incremental-reading](https://github.com/ebAobS/roaming-mode-incremental-reading) `Svelte` ⭐ 49 - 思源插件，以稍后阅读作为核心理念，旨在更好实现渐进阅读。
 - [OpaqueGlass/syplugin-anMCPServer](https://github.com/OpaqueGlass/syplugin-anMCPServer) `TypeScript` ⭐ 46 - A plugin that provide simple MCP service for Siyuan-note
+- [heartleo/zlib](https://github.com/heartleo/zlib) `Go` ⭐ 45 - A command line for Z-Library. Search, download and send to Kindle.
 - [TiantianUpup/math-learning](https://github.com/TiantianUpup/math-learning) ⭐ 45 - 数学学习书籍
 - [siyuan-note/oceanpress](https://github.com/siyuan-note/oceanpress) `TypeScript` ⭐ 45 - 这是一款从思源笔记本生成一个静态站点的工具，打开下方链接即可使用
 - [Achuan-2/siyuan-plugin-blockref-footnote](https://github.com/Achuan-2/siyuan-plugin-blockref-footnote) `TypeScript` ⭐ 36 - 思源笔记插件，用块引实现脚注功能 A plugin of SiYuan Note, using block references to implement footnote annotations
@@ -205,8 +207,8 @@
 - [WillWu88/PX4-ROS-LQR](https://github.com/WillWu88/PX4-ROS-LQR) `C++` ⭐ 5
 - [Neurocylcq/GeogebraE](https://github.com/Neurocylcq/GeogebraE) `JavaScript` ⭐ 5 - Geogebra Embedding for siyuan
 - [RQYOU/Hazy-Moonlight](https://github.com/RQYOU/Hazy-Moonlight) `CSS` ⭐ 5 - A theme for SiYuan. 一款清爽的思源笔记主题。
+- [LingC001/zhipu-sniper](https://github.com/LingC001/zhipu-sniper) `Python` ⭐ 2 - 智谱code plan自动化抢购
 - [zongqir/highlight_assistant](https://github.com/zongqir/highlight_assistant) `TypeScript` ⭐ 2 - 思源高亮小助手
-- [LingC001/zhipu-sniper](https://github.com/LingC001/zhipu-sniper) `Python` ⭐ 1 - 智谱code plan自动化抢购
 - [guillempalau/SM2Anki](https://github.com/guillempalau/SM2Anki) `Python` ⭐ 1 - Conver your Supermemo (for windows) collection to Anki deck of flashcards
 
 ---
